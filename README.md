@@ -3,7 +3,15 @@
 Minimum weight perfect matching (MWPM) decoder is the most standard decoder of surface codes, but it contains some flaws when dealing with the noises in the depolarizing channels. Iteratively reweighted MWPM decoder is a modification to the conventional MWPM decoder and has better performence for depolarizing channels. For more information about IRMWPM decoder, please see 
 https://doi.org/10.48550/arXiv.2202.11239.
 
-Create a python file and import the module "SorCodSim".
+## Download & Installation
+
+Copy this repositoy and install opencv-python.
+
+```console
+pip3 install opencv-python
+```
+
+Create a new python file and import the module "SorCodSim".
 ```python
 import SurCodSim as SCS
 ```
