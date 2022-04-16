@@ -71,9 +71,11 @@ L1.show_lattice()
 ```
 ##### Output:
 <img src=figures/fig6.PNG  width=32%>
+
 ```python
 L2.MWPM_decoding()
 ```
+
 ##### Output:
 ```
 X correction: 
@@ -82,17 +84,22 @@ Z correction:
  [[2 1]
  [3 0]]
 ```
+
 ```python
 L2.show_lattice()
 ```
+
 ##### Output:
 <img src=figures/fig7.PNG  width=24%>
 
-### IRMWPM Decoding
-```
+## IRMWPM Decoding
+
+```python
 L1.IRMWPM_decoding()
 ```
+
 ##### Output:
+
 ```
 X correction: 
  [[1 1]
@@ -101,14 +108,18 @@ Z correction:
  [[1 1]
  [3 1]]
 ```
-```
+
+```python
 L1.show_lattice()
 ```
+
 ##### Output:
 <img src=figures/fig8.PNG  width=32%>
-```
+
+```python
 L2.IRMWPM_decoding()
 ```
+
 ##### Output:
 ```
 X correction: 
@@ -117,23 +128,27 @@ Z correction:
  [[3 2]
  [4 1]]
 ```
-```
+
+```python
 L2.show_lattice()
 ```
 ##### Output:
 <img src=figures/fig9.PNG  width=24%>
 
-### Reset the Lattices
+## Reset the Lattices
 ```python
 L1.clear_lattice()
 L1.show_lattice()
 ```
+
 ##### Output:
 <img src=figures/fig1.PNG  width=24%>
+
 ```python
 L2.clear_lattice()
 L2.show_lattice()
 ```
+
 ##### Output:
 <img src=figures/fig2.PNG  width=24%>
 
