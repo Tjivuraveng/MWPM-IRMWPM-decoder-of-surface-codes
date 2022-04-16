@@ -23,7 +23,7 @@ import SurCodSim as SCS
 L1=SCS.AB_Lattice(width=3,length=4)
 ```
 
-- A 3x3 surface code with a hole
+- A 3x3 surface code with a hole (defect)
 ```python
 hole = [(3,3)]                             # coordinate of the hole
 L2 = SCS.D_Lattice(width=3,length=3,hole)
