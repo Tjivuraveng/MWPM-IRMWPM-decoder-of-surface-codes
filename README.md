@@ -9,13 +9,13 @@ import SurCodSim as SCS
 ```
 ## Declare a Surface Code
 
-- A $3\times 4$ surface code with alternative boundaries
+- A 3x4 surface code with alternative boundaries
 
 ```python
 L1=SCS.AB_Lattice(width=3,length=4)
 ```
 
-- A $3\times 3$ surface code with a hole
+- A 3x3 surface code with a hole
 ```python
 hole = [(3,3)]                             # coordinate of the hole
 L2 = SCS.D_Lattice(width=3,length=3,hole)
